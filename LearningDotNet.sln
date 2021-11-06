@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningArrayLists", "Learn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningHashTables", "LearningHashTables\LearningHashTables.csproj", "{5A9CEE86-8553-4BB7-9E04-0C48AE894258}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning Concurrent", "Learning Concurrent\Learning Concurrent.csproj", "{C0A82258-13DF-4642-AF06-5100E9562A4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5A9CEE86-8553-4BB7-9E04-0C48AE894258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A9CEE86-8553-4BB7-9E04-0C48AE894258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A9CEE86-8553-4BB7-9E04-0C48AE894258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A82258-13DF-4642-AF06-5100E9562A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A82258-13DF-4642-AF06-5100E9562A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A82258-13DF-4642-AF06-5100E9562A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A82258-13DF-4642-AF06-5100E9562A4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
