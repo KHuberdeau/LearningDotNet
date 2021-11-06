@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace LearningArrayLists
 {
@@ -6,7 +7,10 @@ namespace LearningArrayLists
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ArrayList list = new ArrayList();
+
+            list.Add("some string");
+            string s = (String)list[0];
         }
     }
 }
