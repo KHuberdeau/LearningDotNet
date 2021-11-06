@@ -19,6 +19,8 @@ namespace LearningLists
             {
                 Console.WriteLine(customer);
             }
+
+            Console.WriteLine(customers[1]);
         }
     }
 }
