@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace LearningHashTables
 {
@@ -6,7 +7,12 @@ namespace LearningHashTables
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Hashtable table = new Hashtable();
+
+            table.Add("title", "MyWebsite");
+
+            var s = (String)table["title"];
+            Console.WriteLine(s);
         }
     }
 }
