@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace LearningLists
+namespace LearningDotNet
 {
-    class Program
+    class DotNet
     {
         static void Main(string[] args)
         {
