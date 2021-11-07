@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningArrayLists", "Learn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningHashTables", "LearningHashTables\LearningHashTables.csproj", "{5A9CEE86-8553-4BB7-9E04-0C48AE894258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning Concurrent", "Learning Concurrent\Learning Concurrent.csproj", "{C0A82258-13DF-4642-AF06-5100E9562A4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningConcurrent", "Learning Concurrent\LearningConcurrent.csproj", "{C0A82258-13DF-4642-AF06-5100E9562A4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
