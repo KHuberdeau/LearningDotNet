@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningConcurrent", "Learn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningTuple", "LearningTuple\LearningTuple.csproj", "{120B2DDA-C45F-4E70-8491-1CED0FCBE5DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningStack", "LearningStack\LearningStack.csproj", "{CED49D69-15A6-464C-B931-22C9ECFA25C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{120B2DDA-C45F-4E70-8491-1CED0FCBE5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{120B2DDA-C45F-4E70-8491-1CED0FCBE5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{120B2DDA-C45F-4E70-8491-1CED0FCBE5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED49D69-15A6-464C-B931-22C9ECFA25C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED49D69-15A6-464C-B931-22C9ECFA25C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED49D69-15A6-464C-B931-22C9ECFA25C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED49D69-15A6-464C-B931-22C9ECFA25C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
