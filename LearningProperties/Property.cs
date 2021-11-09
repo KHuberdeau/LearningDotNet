@@ -6,19 +6,16 @@ namespace LearningProperties
     {
         class Player
         {
-            public bool isAlive = true;
+            public bool IsAlive
+            {
+                get { return health > 0;  }
+            }
             int health = 100;
 
             public void Hit()
             {
                 Random r = new Random();
                 health -= r.Next(5, 50);
-            }
-
-            public void CheckDeath()
-            {
-                if (health <= 0)
-                    isAlive = false;
             }
         }
 
@@ -28,8 +25,7 @@ namespace LearningProperties
             for (int i = 0; i < 20; i++)
             {
                 player.Hit();
-                player.CheckDeath();
-                Console.WriteLine("Is player alive: " + player.isAlive);
+                Console.WriteLine("Is player alive: " + player.IsAlive);
             }
         }
     }
