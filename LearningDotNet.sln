@@ -5,15 +5,17 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningDotNet", "LearningDotNet\LearningDotNet.csproj", "{868764F3-F950-4067-B2FC-9E1D59A6ECBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningLists", "LearningLists\LearningLists.csproj", "{DB38A5A1-9415-4C6B-9E3A-D73FB987A263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningLists", "LearningLists\LearningLists.csproj", "{DB38A5A1-9415-4C6B-9E3A-D73FB987A263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningDictionaries", "LearningDictionaries\LearningDictionaries.csproj", "{CD5E21E6-0B91-49D7-8112-DB4F69D4F3C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningDictionaries", "LearningDictionaries\LearningDictionaries.csproj", "{CD5E21E6-0B91-49D7-8112-DB4F69D4F3C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningArrayLists", "LearningArrayLists\LearningArrayLists.csproj", "{5FE7DE9B-C754-4B1C-AAF7-8B4F32530694}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningArrayLists", "LearningArrayLists\LearningArrayLists.csproj", "{5FE7DE9B-C754-4B1C-AAF7-8B4F32530694}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningHashTables", "LearningHashTables\LearningHashTables.csproj", "{5A9CEE86-8553-4BB7-9E04-0C48AE894258}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningHashTables", "LearningHashTables\LearningHashTables.csproj", "{5A9CEE86-8553-4BB7-9E04-0C48AE894258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningConcurrent", "Learning Concurrent\LearningConcurrent.csproj", "{C0A82258-13DF-4642-AF06-5100E9562A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningConcurrent", "Learning Concurrent\LearningConcurrent.csproj", "{C0A82258-13DF-4642-AF06-5100E9562A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningBitArray", "LearningBitArray\LearningBitArray.csproj", "{7FD88092-D9F3-4870-91DE-BBE45D03CF8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C0A82258-13DF-4642-AF06-5100E9562A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A82258-13DF-4642-AF06-5100E9562A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A82258-13DF-4642-AF06-5100E9562A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD88092-D9F3-4870-91DE-BBE45D03CF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD88092-D9F3-4870-91DE-BBE45D03CF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD88092-D9F3-4870-91DE-BBE45D03CF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD88092-D9F3-4870-91DE-BBE45D03CF8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
