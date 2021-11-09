@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningAsyncAway", "Learni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningAnonymous", "LearningAnonymous\LearningAnonymous.csproj", "{BCD70745-51C2-4206-A250-0261244544CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningProperties", "LearningProperties\LearningProperties.csproj", "{2971CBFC-3165-44A4-A498-B17E24C7D262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{BCD70745-51C2-4206-A250-0261244544CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCD70745-51C2-4206-A250-0261244544CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCD70745-51C2-4206-A250-0261244544CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2971CBFC-3165-44A4-A498-B17E24C7D262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2971CBFC-3165-44A4-A498-B17E24C7D262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2971CBFC-3165-44A4-A498-B17E24C7D262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2971CBFC-3165-44A4-A498-B17E24C7D262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
