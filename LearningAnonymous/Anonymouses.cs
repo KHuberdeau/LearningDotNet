@@ -16,7 +16,7 @@ namespace LearningAnonymous
 
         static void Download()
         {
-            Network.Download((message) => Console.WriteLine("Download complete " + message));
+            Network.Download((message) => Console.WriteLine("Download Complete " + message));
         }
     }
 
@@ -32,5 +32,4 @@ namespace LearningAnonymous
             });
         }
     }
-}
 }
