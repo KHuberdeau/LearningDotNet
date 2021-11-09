@@ -8,14 +8,15 @@ namespace LearningProperties
         {
             public bool IsAlive
             {
-                get { return health > 0;  }
+                get { return Health > 0;  }
             }
-            int health = 100;
+
+            public int Health { get; private set; } = 100;
 
             public void Hit()
             {
                 Random r = new Random();
-                health -= r.Next(5, 50);
+                Health -= r.Next(5, 50);
             }
         }
 
