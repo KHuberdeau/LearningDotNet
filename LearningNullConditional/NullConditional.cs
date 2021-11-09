@@ -10,8 +10,9 @@ namespace LearningNullConditional
     {
         static void Main(string[] args)
         {
-            Person person = new Person() { Name = "Tim" }; //what if this was null
-            Console.WriteLine(person.Name);
+            Person person = new Person(); // { Name = "Tim" }; //what if this was null
+
+            Console.WriteLine(person?.Name ?? "not set");
         }
     }
 }
