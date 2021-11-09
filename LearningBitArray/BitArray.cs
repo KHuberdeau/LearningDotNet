@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace LearningBitArray
 {
@@ -6,7 +7,11 @@ namespace LearningBitArray
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            BitArray enemyGrid = new BitArray(int 3);
+
+            enemyGrid[0] = false;
+            enemyGrid[1] = true;
+            enemyGrid.Set(2, false);
         }
     }
 }
