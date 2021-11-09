@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Net.Http;
 
 namespace LearningAsyncAwayStart
 {
@@ -17,20 +18,11 @@ namespace LearningAsyncAwayStart
 
         }
 
-        static void Download()
+        static async void Download()
         {
-            Network.Download();
-        }
-    }
-
-
-    // Imaginary external network library
-
-    class Network
-    {
-        static public Task Download()
-        {
-            return Task.Run(() => Thread.Sleep(3000));
+            HttpClient client = new HttpClient();
+            var data = await client.GetStringAsync("http://Reddit.com/r/MagicArena");
+            Console.WriteLine("Download Complete" + data);
         }
     }
 }
