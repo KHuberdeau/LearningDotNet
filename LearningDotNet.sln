@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningQueue", "LearningQu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningHashSet", "LearningHashSet\LearningHashSet.csproj", "{64CA9FEA-9E17-4C5F-9759-B3AF295D46B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningAsync", "LearningAsync\LearningAsync.csproj", "{1539E8CE-21A9-4233-A862-595F4BE791F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{64CA9FEA-9E17-4C5F-9759-B3AF295D46B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64CA9FEA-9E17-4C5F-9759-B3AF295D46B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64CA9FEA-9E17-4C5F-9759-B3AF295D46B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1539E8CE-21A9-4233-A862-595F4BE791F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1539E8CE-21A9-4233-A862-595F4BE791F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1539E8CE-21A9-4233-A862-595F4BE791F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1539E8CE-21A9-4233-A862-595F4BE791F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
