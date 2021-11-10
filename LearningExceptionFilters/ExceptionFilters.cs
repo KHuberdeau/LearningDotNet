@@ -17,17 +17,17 @@ namespace LearningExceptionFilters
         {
             try
             {
-                throw new PersonException("Kim");
+                //throw new PersonException("Kim");
                 throw new PersonException("Bob");
 
             }
-            catch (PersonException ex)
+            catch (PersonException ex) when (ex.Name == "Kim")
             {
-                if (ex.Name == "Kim")
-                    Console.WriteLine("its from Kim, lets ignore it");
-
-                if (ex.Name == "Bob")
-                    Console.WriteLine("its from Tim, make sure we log this");
+                Console.WriteLine("its from Kim, lets ignore it");
+            }
+            catch (PersonException ex) when (ex.Name == "Bob")
+            {
+                Console.WriteLine("its from Bob, lets do something");
             }
         }
     }
