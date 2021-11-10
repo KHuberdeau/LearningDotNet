@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningStringInterpolation
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningExceptions", "LearningExceptions\LearningExceptions.csproj", "{02CB5C67-FE46-4707-880D-9D9BD8EA78F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningFinally", "LearningFinally\LearningFinally.csproj", "{B68576F7-5563-4020-8127-E603B5AB774B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{02CB5C67-FE46-4707-880D-9D9BD8EA78F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02CB5C67-FE46-4707-880D-9D9BD8EA78F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02CB5C67-FE46-4707-880D-9D9BD8EA78F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68576F7-5563-4020-8127-E603B5AB774B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68576F7-5563-4020-8127-E603B5AB774B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68576F7-5563-4020-8127-E603B5AB774B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68576F7-5563-4020-8127-E603B5AB774B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
