@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningFinally", "Learning
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningExceptionFilters", "LearningExceptionFilters\LearningExceptionFilters.csproj", "{D941379D-B5DF-4A4B-ADF5-611ABF10517C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningUsing", "LearningUsing\LearningUsing.csproj", "{8695A50E-CD74-4EC5-9373-454BE6C13980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{D941379D-B5DF-4A4B-ADF5-611ABF10517C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D941379D-B5DF-4A4B-ADF5-611ABF10517C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D941379D-B5DF-4A4B-ADF5-611ABF10517C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8695A50E-CD74-4EC5-9373-454BE6C13980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8695A50E-CD74-4EC5-9373-454BE6C13980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8695A50E-CD74-4EC5-9373-454BE6C13980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8695A50E-CD74-4EC5-9373-454BE6C13980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
